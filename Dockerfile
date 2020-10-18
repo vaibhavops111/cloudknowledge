@@ -1,4 +1,4 @@
-FROM centos:7.6
+FROM centos:7
 RUN yum install  httpd  -y 
 RUN touch /var/www/html/index.html
 RUN echo "Welcome to India" >> /var/www/html/index.html
